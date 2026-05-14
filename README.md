@@ -109,7 +109,7 @@
         letter-spacing: 1px;
         text-align: center;
         padding: 0px 5px;
-        color: #e4e0e0c7;
+        color: #ffffffc7;
         font-weight: 600;
         text-decoration: none;
       }
@@ -1096,7 +1096,7 @@
         <strong> TÀI KHOẢN CLASH OF CLANS </strong>
       </div> -->
       <!-- <div class="list-acc account view active" id="COC-acc"></div> -->
-       
+
       <!-- <div class="header account view">
         <strong> TÀI KHOẢN FREE FIRE </strong>
       </div> -->
