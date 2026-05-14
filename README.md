@@ -54,7 +54,7 @@
       body {
         font-family: "Segoe UI", sans-serif;
         background-color: #000000;
-        color: #000000;
+        color: #ffffff;
       }
 
       /* Header */
