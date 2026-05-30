@@ -121,6 +121,7 @@
       @media (max-width: 600px) {
         .body-top .img {
           display: none;
+          height: 25px;
         }
 
         .menu {
@@ -143,7 +144,7 @@
         transform: translateX(-50%); /* dịch tâm khối về chính giữa */
 
         width: 100vw;
-        min-width: 400px;
+        min-width: 360px;
         height: calc(100vh - 80px);
         overflow-x: scroll;
 
@@ -152,10 +153,17 @@
         color: #ffffff;
       }
 
+      @media (max-width: 600px) {
+        .body-bottom {
+          top: 30px;
+          height: calc(100vh - 30px);
+        }
+      }
+
       .header {
         width: 100vw;
         padding: 10px 20px 15px 20px;
-        min-width: 400px;
+        min-width: 360px;
         height: auto;
         display: flex;
         background-color: #000000;
@@ -200,6 +208,12 @@
         flex-direction: column; /* Nếu bạn có nhiều post, vẫn xếp theo dòng */
       }
 
+      @media (max-width: 600px) {
+        .video-container {
+          max-height: calc(100dvh - 30px);
+        }
+      }
+
       .video-content {
         display: flex;
         flex-wrap: wrap;
@@ -212,7 +226,7 @@
       }
 
       .video-content .video-box {
-        flex: 1 1 480px;
+        flex: 1 1 420px;
         max-width: 50%;
         aspect-ratio: 16/9;
         background-color: #000000;
@@ -226,13 +240,13 @@
 
       @media (max-width: 900px) {
         .video-content .video-box {
-          flex: 1 1 420px;
+          flex: 1 1 360px;
         }
       }
 
       @media (max-width: 600px) {
         .video-content .video-box {
-          flex: 1 1 360px;
+          flex: 1 1 300px;
           max-width: 100%;
         }
       }
